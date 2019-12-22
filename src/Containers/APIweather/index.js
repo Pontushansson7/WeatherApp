@@ -6,7 +6,7 @@ class ApiWeather extends Component {
 //01726c5215c52cf384c18c22464476e8
 
   state = {
-    lat: 'a',
+    lat: '',
     long: '',
     nameOfCity: '',
     country: '',
