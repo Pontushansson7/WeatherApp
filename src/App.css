@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+    font-family: Lineto Brown,sans-serif;
+    font-size: 28px;
+    background-color: skyblue;
+    color: black;
+}
+.line{
+    height: 2px;
+    background-color: dimgray;
+    overflow: hidden;
+}
+.goRight2{
+    float: right;
+}
+.goRight1{
+    float: right;
+    margin-right: 10%;
+}
+.goLeft{
+  float: left;
+  margin-left: 10%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: skyblue;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: seagreen;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  li a:hover:not(.active){
+      background-color: black;
+  }
+  .active {
+    background-color: whitesmoke;
+  }
